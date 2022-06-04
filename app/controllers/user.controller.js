@@ -1,5 +1,5 @@
-const {db_2} = require('../models');
-const Users = db_2;
+const db_2 = require('../models/db_2');
+const Users = db_2.users;
 
 // register and save a new users
 exports.create = (req, res) => {
